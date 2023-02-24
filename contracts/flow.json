@@ -1,0 +1,21 @@
+{
+    "contracts": {
+        "ExchangeRouter": "./src/swap/ExchangeRouter.cdc",
+        "FlowToken": "./src/token/FlowToken.cdc",
+        "FungibleToken": "./src/utils/FungibleToken.cdc",
+        "LendingPool": "./src/vault/LendingPool.cdc",
+        "Bridge": "./src/bridge/Bridge.cdc"
+    },
+    "networks": {
+        "emulator": "127.0.0.1:3569",
+        "mainnet": "access.mainnet.nodes.onflow.org:9000",
+        "sandboxnet": "access.sandboxnet.nodes.onflow.org:9000",
+        "testnet": "access.devnet.nodes.onflow.org:9000"
+    },
+    "accounts": {
+        "emulator-account": {
+            "address": "f8d6e0586b0a20c7",
+            "key": "d14037c64e056757082adab4b51cb10eb05b3749c2cdc82ceac3ac50e801123b"
+        }
+    }
+}
