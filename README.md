@@ -14,3 +14,19 @@ Tau introduces a next-gen decentralized exchange providing liquidity, and enabli
 Quickly swap crypto tokens on Flow. Tau's implementation of [Uniswap v2](https://uniswap.org/blog/uniswap-v2) entirely written in [Cadence](https://developers.flow.com/cadence/language/index) makes for a highly-efficient DEX experience. You can also add liquidity to the various pools supported to further strengthen the protocol.
 
 [Try swapping crypto on Flow](https://tau-flow.vercel.app/en/exchange/swap).
+
+
+# 2. Lending & Borrowing
+
+Tau introduces an institution-grade DeFi borrowing and lending protocol featuring ***permissionless*** liquidity pools, allowing anyone to lend and borrow assets at high APYs.
+
+
+### Some points
+
+1. Borrowers pay 0.1% of the borrowed amount as an "origination" fee, which is added to the total borrow amount in its respective token.
+2. Liquidations carry a 10% fee paid directly to the liquidator.
+3. All transactions occur on the [Flow Network](https://flow.com).
+
+
+[Try lending/borrowing on Flow](https://tau-flow.vercel.app/lend).
+
