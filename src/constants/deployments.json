@@ -1,0 +1,166 @@
+{
+    "farms": {
+        "TauDistributor": "0xBaAF39f4277830eF9754E1F4167eE79eA3329721",
+        "TauDistributorV2": "0xB460E3309E85b4B86489dA2c90991272420d86c7",
+        "TauVault": "0x180C3Fc99E65D2C863D46F02b5c1204999a6B577"
+    },
+    "swap": {
+        "TauFactory": "0xD8eAa12F0011162Ea6A2FA3AE2e3E684144C0eea",
+        "TauRouter02": "0xA47caec9C23963273178549e90360eb2eb74B8C1"
+    },
+    "stablecoin": {
+        "taUSD": "0x910FaAa180A5c4e7288Bf293E54086fC9676fD8c",
+        "TauStablecoin": "0x0E13EDD99B94AacC5631CaB12038eC2D6dc597Cd",
+        "AccessControlConfig": "0xDF79E58094e2c83bBC95Ed9e351f9ba938a5d20f",
+        "CollateralPoolConfig": "0xe7A738C412D6C9918B13EAf27850300307b0E725",
+        "BookKeeper": "0xE0Db9D9bD8c4E8B528aBe9B9BD0d857c4D86Bae0",
+        "ShowStopper": "0xfA51f99b9fA109998FAEC11dC4FAAca3cD7Fcd86",
+        "PositionManager": "0x990D362598663fBE9D77952E0db3f3d426CE8472",
+        "GetPositions": "0xCd0623BDa922A63cCc904996301F470a4d51e532",
+        "SystemDebtEngine": "0x68FCB87754A246C36e6AA1820aB404F889aa4695",
+        "StabilityFeeCollector": "0x18566A30D0F3b5305B787e7Cf6e46cBD77B39c04",
+        "PriceOracle": "0xe253Ead75F6d909e2e2003F53abD8BA007682C68",
+        "IbTokenAdapter": "",
+        "StablecoinAdapter": "",
+        "OraclePriceFeed": "",
+        "BandPriceOracle": "",
+        "StrictOraclePriceFeed": "",
+        "IbTokenPriceFeed": "",
+        "LiquidationEngine": "",
+        "FixedSpreadLiquidationStrategy": ""
+    },
+    "vault": {
+        "tokens": {
+            "ibDCT": "0xE0bB1E9b19a1e89c3A2914778baC0Dfe3D10c0A5",
+            "ibMAV": "0x10a7475F932C19C713A7E487D3B74785ab620B94",
+            "ibWLR": "0xCE9585caa98A582787FF24A1b616F647a583f27a",
+            "ibDIB": "0xa597392d48e65B25f2c82e8633133Da923582Eb9"
+        },
+        "Oracle": "0x58b594bfe3baaEc530FcA21D655ccdc3ED209759",
+        "ChainLink": "0x04d91643D9ee80Ddde0E388359daA440Ad0380a7",
+        "TauVault": "0x43E97a75a20d5F35bE720E6C05379f635C5263a3",
+        "RewardControl": "0x1c93cf6cB77E9A25809765285286050782b52762",
+        "RateModel": "0x645eb033D7D08192B2Fff343142E89769A14BB7b"
+    },
+    "tokens": {
+        "wXDC": "0xa2E25078B7DA3Eb08305d88b3F99070214060Ed8",
+        "DCT": "0x7F9E26CFDC5Dfa90999Fac735AF4BbfD5e7538e8",
+        "DIB": "0x7704E6C9d3b41E5A32804C52e8Ab030410DFa59E",
+        "WLR": "0x409B323F11Bc02434d31015C3dAF4f5AD65acB7e",
+        "MAV": "0xb04f0a71412aC452E1969F48Ee4DafC4AE8797cE",
+        "TAU": "0x53A350CC3A19dd3376796Bef55a7C5a096BfbF8c",
+        "mumbai": {
+            "wMATIC": "0x935B30d75F57659CF41Bd868A8032E58Fe53C369",
+            "DCT": "0x4beC7Ad5a195fc04b8eB600d975Fc70fB534d4Fc",
+            "DIB": "0xBc43C5D55d936cA74dB498a123433eb9EcA0882D",
+            "WLR": "0xf0BB8e57747b9C06b204Be6bb1Ce066F4611B613",
+            "MAV": "0x370f6f309970511b9AfBb15D70550c7d88ADc23d"
+        }
+    },
+    "bridge": {
+        "Faucet": "0x1FdD46D5F9963A20b8F56DA4526289bb1C9533f9",
+        "Bridge_Apothem": "0xfa97AF0805c6cc2A39AAaC86a923d7641bb18574",
+        "Bridge_Mumbai": "0x3d0440A3eA85e120864ae609d1383006A1490786"
+    },
+    "misc": {
+        "Multicall2": "0x15aFDF728F327D3bc72D03f944855Da30504D97F"
+    },
+    "pairs": {
+        "0xa2E25078B7DA3Eb08305d88b3F99070214060Ed8-0x7F9E26CFDC5Dfa90999Fac735AF4BbfD5e7538e8": {
+            "id": 3,
+            "tokenA": "DCT",
+            "tokenB": "wXDC",
+            "pairAddress": "0xB5399CB5A75dDb18e0ae5EB677426Cb0227b7d85"
+        },
+        "0x7F9E26CFDC5Dfa90999Fac735AF4BbfD5e7538e8-0xa2E25078B7DA3Eb08305d88b3F99070214060Ed8": {
+            "id": 3,
+            "tokenA": "DCT",
+            "tokenB": "wXDC",
+            "pairAddress": "0xB5399CB5A75dDb18e0ae5EB677426Cb0227b7d85"
+        },
+        "0xa2E25078B7DA3Eb08305d88b3F99070214060Ed8-0x409B323F11Bc02434d31015C3dAF4f5AD65acB7e": {
+            "id": 9,
+            "tokenA": "WLR",
+            "tokenB": "wXDC",
+            "pairAddress": "0x59b9E0c57593428e4c4B3453be8b51714aEAC826"
+        },
+        "0x409B323F11Bc02434d31015C3dAF4f5AD65acB7e-0xa2E25078B7DA3Eb08305d88b3F99070214060Ed8": {
+            "id": 9,
+            "tokenA": "WLR",
+            "tokenB": "wXDC",
+            "pairAddress": "0x59b9E0c57593428e4c4B3453be8b51714aEAC826"
+        },
+        "0xa2E25078B7DA3Eb08305d88b3F99070214060Ed8-0xb04f0a71412aC452E1969F48Ee4DafC4AE8797cE": {
+            "id": 12,
+            "tokenA": "MAV",
+            "tokenB": "wXDC",
+            "pairAddress": "0xCCB6a346238A2f1965FDECCCbf6e31Bf15486236"
+        },
+        "0xb04f0a71412aC452E1969F48Ee4DafC4AE8797cE-0xa2E25078B7DA3Eb08305d88b3F99070214060Ed8": {
+            "id": 12,
+            "tokenA": "MAV",
+            "tokenB": "wXDC",
+            "pairAddress": "0xCCB6a346238A2f1965FDECCCbf6e31Bf15486236"
+        },
+        "0x7F9E26CFDC5Dfa90999Fac735AF4BbfD5e7538e8-0x7704E6C9d3b41E5A32804C52e8Ab030410DFa59E": {
+            "id": 7,
+            "tokenA": "DIB",
+            "tokenB": "DCT",
+            "pairAddress": "0x7291Cf59709B229627f86b78149851c6Da22B3F5"
+        },
+        "0x7704E6C9d3b41E5A32804C52e8Ab030410DFa59E-0x7F9E26CFDC5Dfa90999Fac735AF4BbfD5e7538e8": {
+            "id": 7,
+            "tokenA": "DIB",
+            "tokenB": "DCT",
+            "pairAddress": "0x7291Cf59709B229627f86b78149851c6Da22B3F5"
+        },
+        "0x7F9E26CFDC5Dfa90999Fac735AF4BbfD5e7538e8-0x409B323F11Bc02434d31015C3dAF4f5AD65acB7e": {
+            "id": 10,
+            "tokenA": "WLR",
+            "tokenB": "DCT",
+            "pairAddress": "0x5745A37EC850419BaA043f1CfCdE29491C9DFe18"
+        },
+        "0x409B323F11Bc02434d31015C3dAF4f5AD65acB7e-0x7F9E26CFDC5Dfa90999Fac735AF4BbfD5e7538e8": {
+            "id": 10,
+            "tokenA": "WLR",
+            "tokenB": "DCT",
+            "pairAddress": "0x5745A37EC850419BaA043f1CfCdE29491C9DFe18"
+        },
+        "0x7F9E26CFDC5Dfa90999Fac735AF4BbfD5e7538e8-0xb04f0a71412aC452E1969F48Ee4DafC4AE8797cE": {
+            "id": 13,
+            "tokenA": "MAV",
+            "tokenB": "DCT",
+            "pairAddress": "0x29f4D96b4d0CEdCBe57FDE86952D6C79E8FA2DaF"
+        },
+        "0xb04f0a71412aC452E1969F48Ee4DafC4AE8797cE-0x7F9E26CFDC5Dfa90999Fac735AF4BbfD5e7538e8": {
+            "id": 13,
+            "tokenA": "MAV",
+            "tokenB": "DCT",
+            "pairAddress": "0x29f4D96b4d0CEdCBe57FDE86952D6C79E8FA2DaF"
+        },
+        "0x7704E6C9d3b41E5A32804C52e8Ab030410DFa59E-0xb04f0a71412aC452E1969F48Ee4DafC4AE8797cE": {
+            "id": 14,
+            "tokenA": "MAV",
+            "tokenB": "DIB",
+            "pairAddress": "0x5C36135a73F0b232192bA345Bef99049D0F21245"
+        },
+        "0xb04f0a71412aC452E1969F48Ee4DafC4AE8797cE-0x7704E6C9d3b41E5A32804C52e8Ab030410DFa59E": {
+            "id": 14,
+            "tokenA": "MAV",
+            "tokenB": "DIB",
+            "pairAddress": "0x5C36135a73F0b232192bA345Bef99049D0F21245"
+        },
+        "0x409B323F11Bc02434d31015C3dAF4f5AD65acB7e-0xb04f0a71412aC452E1969F48Ee4DafC4AE8797cE": {
+            "id": 15,
+            "tokenA": "MAV",
+            "tokenB": "WLR",
+            "pairAddress": "0x16623630E2fF68954fd7B1c2598A897b31502e45"
+        },
+        "0xb04f0a71412aC452E1969F48Ee4DafC4AE8797cE-0x409B323F11Bc02434d31015C3dAF4f5AD65acB7e": {
+            "id": 15,
+            "tokenA": "MAV",
+            "tokenB": "WLR",
+            "pairAddress": "0x16623630E2fF68954fd7B1c2598A897b31502e45"
+        }
+    }
+}

@@ -1,0 +1,20 @@
+import { Currency } from "../../sdk"
+import CurrencyLogo from "../CurrencyLogo"
+import React from "react"
+import { IFCL_TOKEN } from "../../fcl/addresses/addresses"
+
+interface DoubleCurrencyLogoProps {
+    margin?: boolean
+    size?: number
+    currency0?: Currency | IFCL_TOKEN
+    currency1?: Currency | IFCL_TOKEN
+}
+
+export default function DoubleCurrencyLogo({ currency0, currency1, size = 16 }: DoubleCurrencyLogoProps) {
+    return (
+        <div className="flex items-center space-x-2">
+            <CurrencyLogo currency={currency0} size={size.toString() + "px"} />
+            <CurrencyLogo currency={currency1} size={size.toString() + "px"} />
+        </div>
+    )
+}
