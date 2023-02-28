@@ -7,3 +7,10 @@ Tau introduces a next-gen decentralized exchange providing liquidity, and enabli
 1. High-efficiency swapping
 2. Capital-efficient Lending & Borrowing Protocol
 3. Secure Cross-chain Bridge
+
+
+# 1. High-efficiency Swapping
+
+Quickly swap crypto tokens on Flow. Tau's implementation of [Uniswap v2](https://uniswap.org/blog/uniswap-v2) entirely written in [Cadence](https://developers.flow.com/cadence/language/index) makes for a highly-efficient DEX experience. You can also add liquidity to the various pools supported to further strengthen the protocol.
+
+[Try swapping crypto on Flow](https://tau-flow.vercel.app/en/exchange/swap).
