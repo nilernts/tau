@@ -30,3 +30,9 @@ Tau introduces an institution-grade DeFi borrowing and lending protocol featurin
 
 [Try lending/borrowing on Flow](https://tau-flow.vercel.app/lend).
 
+
+# 3. Cross-Chain Bridge
+
+Tau has a cross-chain bridge to facilitate interoperability between Flow and other chains (such as Polygon). Currently, Tau supports Flow <=> Polygon Mumbai, with more chains being supported very soon. Tau's bridge is permissionless, and allows anyone to bridge assets between the two chains, regardless of EVM-compatibility or not. That is, it is possible to bridge assets from Flow to, say, Solana devnet and vice-versa.
+
+[Try bridging assets from Flow to Polygon Mumbai](https://tau-flow.vercel.app/bridge).
